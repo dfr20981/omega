@@ -1,0 +1,241 @@
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/***********************DAN*************************************************************************************************************/
+
+.panelBtn_prin{
+  height: 8%;
+  width: 100%;
+  border-bottom: 2px solid #006d9e;
+  margin-bottom: 0.5em;
+}
+
+.contenido_prin{
+  /*height: 80%;*/
+  width: 100%;
+  overflow-y: auto;
+}
+
+.textTb1{
+   font-size: 12px;
+   /*font-family: 'ZCOOL QingKe HuangYou', cursive;*/
+   font-family: 'Roboto Condensed', sans-serif; 
+}
+.centerTD{
+    text-align: center;
+    cursor: default;
+}
+.leftTD{
+    text-align: left;
+    cursor: default;
+}
+.rightTD{
+    text-align: right;
+    cursor: default;
+}
+  /***********************************************************LOAD*****************************************************************************************************************************************************************************************************/
+  .loadMsg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #000000e6;
+    z-index: 1051;
+    top: 0px;
+    display: none;
+  }
+    .div_imgLoad{
+      width: 80%;
+      margin-top: 26%;
+      margin-left: 10%;
+      height: auto;
+      text-align: center;
+    }
+    
+    .div_imgLoad span{
+      color: #fff;
+      font-size: 3.5em;
+      text-shadow: 3px 3px #000;
+      font-family: 'Orbitron', sans-serif;
+      
+    } 
+  /***********************************************************\LOAD*****************************************************************************************************************************************************************************************************/
+/***********************\DAN*************************************************************************************************************/
+
+.iconTab{
+ width:  1.5em;
+ height: auto;
+ cursor: pointer;
+}
+
+.tabCard{
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  padding: 2px 6px 2px 6px;
+  margin-bottom: 1em;
+  background:#fff;
+  /*position: absolute;
+  width: 90%;*/
+}
+  .h_tabCard{
+
+  }
+  .b_tabCard{
+    display: none;
+  }
+  .f_tabCard{
+    border-top: 1px solid #b4b4b4;
+    box-shadow: 0px -1px #d1d1d1;
+  }
+    .tdIcon{
+       cursor: pointer;
+       text-align: center;
+       width: 15px;
+       background: #f9f9f9;
+
+    }
+      .downE{
+         display: block;
+      }
+      .upE{
+        display: none;
+      }
+    .trTitCards{
+      border-bottom: 1px solid #17a2b8;
+      box-shadow: 0px 1px #d7d7d7;
+    }  
+
+.modalArb{
+  /*display: none;*/
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background:#fff;
+} 
+
+  #mdl_vales{
+    display:none;
+  }
+  .mdl_head{
+    width: 100%;
+    background:#343a40;
+    height: 36px;
+  }
+    #tit_mdlVales{
+      font-size: 20px;
+      color:#fff;
+      margin-top: 3px; 
+    }
+  .mdl_body{
+    width: 100%;
+    background:#fff;
+  }
+    .mdl_body_h{
+      width: 100%;
+      background:#fff;   
+      height: 80px;
+    }
+    .mdl_body_b{
+      width: 100%;
+      background:#fff;   
+    }
+
+
+  .mdl_floor{
+    width: 100%;
+    background:#fff;
+    border-top: 1px solid #c7c7c7;
+    height: 36px; 
+  }
+
+
+  .divInptCats{
+
+  }
+
+  .titTabPos{
+    background: #006d9e;
+    color: #fff;
+    text-align: center;
+  }
+
+  .btnImgTablas{
+  width: 22px;
+  margin-left: 0.2em;
+}
+
+#tb_Vales_filter{
+  display: none;
+}
+
+#tb_genVale_filter{
+ display: none; 
+}
+
+.textAlert{
+  text-transform: uppercase;
+  color: #c69c1e;
+  text-shadow: 0  2px  0   #8b6e15,
+               0  2px  0   #7c6213,
+               0  3px  0   #6e5611, 
+               0  2px  0   #5f4b0e, 
+               0 1px  0   #503f0c,
+               0 1px  0   #41330a,
+              1px 2px 3px rgba(0,0,0,0.1),
+              1px 3px  2px rgba(0,0,0,0.3);
+}
+
+.no_selectable {
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -ms-user-select:none;
+   user-select: none; 
+}
+
+.tit_formArt{
+  background: #343a40;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 3px;
+  margin: 0px;
+  border-radius: 5px 0px 0px 5px;
+}

@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'LibreBaskerville';
+	src: url('fonts/LibreBaskerville-Regular.ttf'); 
+}
+
+.omega_head{
+  width: 100%;
+  height: 70px;
+  background: #000;
+
+}
+
+.omega_body{
+      background-color: #ECF0F1;
+      overflow-y: auto;
+}
+
+.btnCircle{
+	cursor: pointer;
+	width: 100%;
+	border-radius: 50%;
+	background: #004d91;
+}
+
+.textTitBtn{
+	/*font-size: 2em;*/
+	font-weight: 600;
+}
+
+.imgEmp{
+	border-radius: 10px;
+	margin-top: 0.3em;
+	width: 299px;
+	/*display: none;*/
+}
+
+.textVer{
+	font-size: 12px;
+	color:#808080;
+	float: right;
+}
+
+.tit_api{
+	color: #fff;
+	margin-top: 0.3em;
+	font-family: "LibreBaskerville";
+	font-size: 40px;
+	font-weight: 600;
+	cursor: context-menu;
+	text-shadow: 2px 3px #5e5e5e;
+}

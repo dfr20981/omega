@@ -1,0 +1,164 @@
+#agregar{
+  text-align: right;
+}
+.img{
+  background-color: white;
+}
+#letra{
+  color: white;
+  font-size: 15px;
+}
+body{overflow-y:hidden;
+}
+ span.derecha {
+  float: right;
+
+  margin-left: 10px;
+
+  text-align: center;
+  font-size: 12px;
+}
+#btns{
+  text-align: right;
+}
+span.total{
+font-size: 15px;
+  height: 30px;
+  width: : 30px;
+  color: green;
+
+float: right;
+}
+span.precio{
+background-color: rgb(214, 233, 198);
+font-size: 15px;
+  height: 25px;
+  color: green;
+float: left;
+}
+.thumb {
+        height: 90px;
+        border: 1px solid #000;
+        margin: 10px 5px 0 0;
+        text-align: center;
+      }
+#maquina{
+   width: 183px;
+   height: 153px;
+   text-align: center;
+   padding-left: 45px;
+
+}
+.card-text{
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Generals resets and unimportant stuff */
+#not{
+  width: 24px;
+  height: 20px;
+  padding-left: 4px;
+}
+#notification-header {
+	background: #fff;
+    padding: 6px;
+    text-align: right;
+    /* margin-top: 4px; */
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+button#notification-icon {
+background-color: transparent;
+	border: 0;
+	position:relative;
+	cursor:pointer;
+}
+#notification-count{
+	position: absolute;
+    left: -2px;
+    top: -8px;
+    font-size: 14px;
+    color: #de5050;
+    font-weight: bold;
+}
+#form-header {
+	font-size:1.5em;
+}
+#frmNotification {
+	padding:20px 30px;
+}
+.form-row{
+	padding-bottom:20px;
+}
+#btn-send {
+	background: #258bdc;
+	color: #FFF;
+	padding: 10px 40px;
+	border: 0px;
+}
+div.demo-content input[type='text'],textarea{
+	width: 100%;
+	padding: 10px 5px;
+  background-color: red;
+}
+#notification-latest {
+	color: #555;
+  position: absolute;
+  right: 0px;
+  background: #f5f5f5;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.20);
+  /* max-width: 250px; */
+  text-align: left;
+  font-size: 12px;
+}
+.notification-item {
+	padding:10px;
+	border-bottom: #ce2078 2px solid;
+	cursor:pointer;
+}
+.notification-subject {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.notification-comment {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-style:italic;
+}
+
+.textPrin{
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top: 0.3em;
+}
+
+.DivUser{
+  border-bottom: 1px solid #000;
+  box-shadow: 0px 1px #606060;
+  color:#fff;
+  font-size: 0.8em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  font-weight: bolder;
+}
+
+.tablaTitPage{
+  width: 100%; 
+  border: 1px solid #034f73;
+  box-shadow: 1px 1px #0088c6;
+}
+
+.malCant{
+  color: #f00;
+  font-weight: 900;
+  cursor: context-menu;
+  font-size: 15px;
+}
+
+.notCar{
+   display: none; 
+}
